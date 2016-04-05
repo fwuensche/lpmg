@@ -1,12 +1,24 @@
+/* new */
+iframe {
+  margin-left: -10px;
+  width: 800px;
+  height: 365px;
+  overflow: hidden;
+}
+iframe::-webkit-scrollbar {
+  display: none;
+}
+
+/* old */
+
 body {
 	margin:0;
 	padding:0;
 	border:0;
 	background-color:#F2F2F2;
 	margin-left:auto;
-	margin-right:auto;	
+	margin-right:auto;
 	width:1140px;
-
 }
 
 a:link {text-decoration:none;color:#808080;}
