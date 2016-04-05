@@ -1,11 +1,11 @@
 /* new */
-iframe {
+#tabela {
   margin-left: -10px;
   width: 800px;
   height: 365px;
   overflow: hidden;
 }
-iframe::-webkit-scrollbar {
+#tabela::-webkit-scrollbar {
   display: none;
 }
 
