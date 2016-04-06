@@ -8,9 +8,12 @@
 #tabela::-webkit-scrollbar {
   display: none;
 }
+.pdf-icon {
+  height: 15px;
+  width: 15px;
+}
 
 /* old */
-
 body {
 	background-color:#F2F2F2;
 }
@@ -32,12 +35,6 @@ p {
 	text-align:left;
 }
 
-#textofooter{
-	font-size:68.8%;
-	line-height:150%;
-	text-align:center;
-	color:white;
-}
 
 #container{
 	width: 1140px;
@@ -52,7 +49,7 @@ p {
 	text-align:justify;
 }
 
-#tese{
+#logo{
 	padding: 15px 20px 15px 20px;
 	height:115px;
 }
@@ -61,19 +58,21 @@ p {
 	position:relative;
 	float: right;
 	padding: 115px 20px 15px 20px;
-	width:200px;
 	height: 25px;
 	background-color:#FFFFFF;
 }
+#menu a {
+  margin-left: 20px;
+}
 
-#top{
+#top {
 	background-image: url("top.png");
 	height:30px;
 	clear:both;
   margin-top: 40px;
 }
 
-#imagem{
+#imagem {
 	margin: 0 auto ;
 	padding: 0 20px 20px 20px;
 	height:250px;
@@ -83,25 +82,12 @@ p {
 	clear:both;
 }
 
-#content{
-	position:relative;
+#content {
 	padding-left: 20px;
 	padding-right: 35px;
-	height:500px;
-	background-color:#FFFFFF;
-	margin-right: 330px;
 }
 
-#content_lat{
-	float: right;
-	position:relative;
-	padding-right:20px;
-	height:500px;
-	width:300px;
-	background-color:#FFFFFF;
-}
-
-#contato{
+#contato {
 	position:relative;
 	padding-left: 20px;
 	height:380px;
@@ -109,7 +95,7 @@ p {
 	margin-right: 630px;
 }
 
-#contato_lat{
+#contato_lat {
 	float: right;
 	position:relative;
 	padding-right:20px;
@@ -119,13 +105,13 @@ p {
 	background-color:#FFFFFF;
 }
 
-#bottom{
+#bottom {
 	background-image: url("bottom.png");
 	height:55px;
 	clear:both;
 }
 
-#anbima{
+#anbima {
 	position:relative;
 	background-color:#FFFFFF;
 	padding: 20px 20px 20px 28px;
@@ -133,7 +119,7 @@ p {
 	float:right;
 }
 
-#disclaimer{
+#disclaimer {
 	position:relative;
 	padding: 20px 0px 20px 20px;
 	background:#fff;
@@ -141,14 +127,16 @@ p {
 	width:920px;
 }
 
-#footer{
+#footer {
 	background: #32525D;
 	padding:5px;
 	border:1px solid #CCCCCC;
-	height:18px;
+	height:25px;
 	box-shadow: inset 0 2px 3px 0 rgba(255,255,255,.3), inset 0 -3px 6px 0 rgba(0,0,0,.2), 0 3px 2px 0 rgba(0,0,0,.2);
 }
-
-tbody tr:hover td {
-	color: #060B0E;
+#textofooter{
+  color: white;
+	font-size:68.8%;
+	line-height:150%;
+	text-align:center;
 }
