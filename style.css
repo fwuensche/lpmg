@@ -12,7 +12,7 @@
   height: 15px;
   width: 15px;
 }
-#tab-home, #tab-contato, #tab-equipe {
+#tab-fundo, #tab-contato, #tab-equipe {
   height: 460px;
   padding: 0 10px;
 }
@@ -116,6 +116,12 @@ p {
 	height:100px;
 	float:right;
 }
+#anbima img {
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  margin-bottom: 5px;
+}
 
 #disclaimer {
 	position:relative;
@@ -123,6 +129,7 @@ p {
 	background:#fff;
 	height: 116px;
 	width:920px;
+  margin-bottom: 10px;
 }
 
 #footer {
