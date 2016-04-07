@@ -1,20 +1,21 @@
 /* new */
 #tabela {
   margin-left: -10px;
-  width: 800px;
+  width: 100%;
   height: 365px;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 #tabela::-webkit-scrollbar {
-  display: none;
+  /*display: none;*/
 }
 .pdf-icon {
   height: 15px;
   width: 15px;
 }
-#tab-fundo, #tab-contato, #tab-equipe {
-  height: 460px;
+.tab-pane {
+  min-height: 460px;
   padding: 0 10px;
+  margin-top: 40px;
 }
 h4 {
   margin-bottom: 0 !important;
@@ -50,15 +51,14 @@ p {
 	background-color:#FFF;
 }
 
-#textodisclaimer{
-	font-size:65%;
-	line-height:150%;
-	text-align:justify;
+#logo {
+  height: 70px;
+  top: 30px;
+  position: absolute;
 }
 
-#logo{
-	padding: 15px 20px 15px 20px;
-	height:115px;
+ul.nav {
+  margin-top: 90px;
 }
 
 #menu{
@@ -73,7 +73,7 @@ p {
 }
 
 #top {
-	background-image: url("top.png");
+	background-image: url("img/top.png");
 	height:30px;
 	clear:both;
 }
@@ -110,10 +110,6 @@ p {
 }
 
 #anbima {
-	position:relative;
-	background-color:#FFFFFF;
-	padding: 20px 20px 20px 28px;
-	height:100px;
 	float:right;
 }
 #anbima img {
@@ -124,23 +120,26 @@ p {
 }
 
 #disclaimer {
-	position:relative;
-	padding: 20px 0px 20px 20px;
+	padding: 10px;
 	background:#fff;
 	height: 116px;
 	width:920px;
-  margin-bottom: 10px;
+}
+#textodisclaimer{
+	font-size: 71%;
+	line-height: 150%;
+	text-align: justify;
 }
 
 #footer {
 	background: #32525D;
-	padding:5px;
+	padding:8px;
+  margin-top: 10px;
 	border:1px solid #CCCCCC;
-	height:25px;
+	height:30px;
 	box-shadow: inset 0 2px 3px 0 rgba(255,255,255,.3), inset 0 -3px 6px 0 rgba(0,0,0,.2), 0 3px 2px 0 rgba(0,0,0,.2);
 }
 #textofooter{
-  color: white;
 	font-size:68.8%;
 	line-height:150%;
 	text-align:center;
