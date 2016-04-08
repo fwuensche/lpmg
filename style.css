@@ -1,50 +1,26 @@
-/* new */
 #tabela {
-  margin-left: -10px;
   width: 100%;
   height: 365px;
-  /*overflow: hidden;*/
+  border-style: solid;
+  border-width: thin;
+  border-color: #eee;
 }
-#tabela::-webkit-scrollbar {
-  /*display: none;*/
-}
-.pdf-icon {
-  height: 15px;
-  width: 15px;
-}
-.tab-pane {
+.small-text { font-size: 11px; }
+.condensed-text { line-height: 13px; }
+.pdf-icon { height: 14px; }
+#tab-fundo, #tab-contato, #tab-equipe {
   min-height: 460px;
-  padding: 0 10px;
   margin-top: 40px;
 }
 h4 {
   margin-bottom: 0 !important;
 }
 
-/* old */
-body {
-	background-color:#F2F2F2;
-}
-
 p {
-	margin:0;
-	padding:0;
-	border:0;
-	text-align: justify;
-	line-height:160%;
-	font-size: 87.5%;
-	font-family: trebuchet ms, verdana, sans-serif;
 	color:#616161;
 }
 
-#lateral{
-	font-size:75%;
-	line-height:150%;
-	text-align:left;
-}
-
-
-#container{
+#container {
 	width: 1140px;
 	border-left: 1px solid #CCCCCC;
 	border-right: 1px solid #CCCCCC;
@@ -52,8 +28,8 @@ p {
 }
 
 #logo {
-  height: 70px;
-  top: 30px;
+  height: 60px;
+  top: 35px;
   position: absolute;
 }
 
@@ -61,7 +37,7 @@ ul.nav {
   margin-top: 90px;
 }
 
-#menu{
+#menu {
 	position:relative;
 	float: right;
 	padding: 115px 20px 15px 20px;
@@ -72,75 +48,21 @@ ul.nav {
   margin-left: 20px;
 }
 
-#top {
-	background-image: url("img/top.png");
-	height:30px;
-	clear:both;
-}
-
-#imagem {
-	margin: 0 auto ;
-	padding: 0 20px 20px 20px;
-	height:250px;
-	width:958px;
-	float:left;
-	background-color:#FFFFFF;
-	clear:both;
-}
-
-#contato {
-	position:relative;
-	padding-left: 20px;
-	height:380px;
-	background-color:#FFFFFF;
-	margin-right: 630px;
-}
-
 #contato_lat {
 	float: right;
-	height:380px;
-	width:580px;
+	max-height:380px;
+	max-width:580px;
 	background-color:#FFFFFF;
 }
 
-#bottom {
-	background-image: url("bottom.png");
-	height:55px;
-	clear:both;
-}
-
-#anbima {
-	float:right;
-}
 #anbima img {
+  width: 127px;
+  height: 47px;
+  max-width: 100%;
+  max-height: 100%;
   border-style: solid;
   border-width: thin;
-  border-color: black;
+  border-color: #eee;
   margin-bottom: 5px;
-}
-
-#disclaimer {
-	padding: 10px;
-	background:#fff;
-	height: 116px;
-	width:920px;
-}
-#textodisclaimer{
-	font-size: 71%;
-	line-height: 150%;
-	text-align: justify;
-}
-
-#footer {
-	background: #32525D;
-	padding:8px;
-  margin-top: 10px;
-	border:1px solid #CCCCCC;
-	height:30px;
-	box-shadow: inset 0 2px 3px 0 rgba(255,255,255,.3), inset 0 -3px 6px 0 rgba(0,0,0,.2), 0 3px 2px 0 rgba(0,0,0,.2);
-}
-#textofooter{
-	font-size:68.8%;
-	line-height:150%;
-	text-align:center;
+  float: right;
 }
