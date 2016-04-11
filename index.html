@@ -2,8 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Tese Gestão de Investimentos</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
     <link rel="shortcut icon" href="favicon.ico">
 
     <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous">
@@ -24,7 +26,7 @@
       </a>
       <ul class="nav nav-tabs" role="tablist">
         <li role="presentation" class="pull-right"><a href="#tab-contato" aria-controls="messages" role="tab" data-toggle="tab">Contato</a></li>
-        <li role="presentation" class="pull-right"><a href="#tab-equipe" aria-controls="messages" role="tab" data-toggle="tab">Equipe</a></li>
+        <!-- <li role="presentation" class="pull-right"><a href="#tab-equipe" aria-controls="messages" role="tab" data-toggle="tab">Equipe</a></li> -->
         <li role="presentation" class=" pull-right active"><a href="#tab-fundo" aria-controls="home" role="tab" data-toggle="tab">Fundo</a></li>
       </ul>
 
@@ -221,7 +223,7 @@
     -->
     <footer>
       <div class="row">
-        <div class="col-md-10 col-xs-9">
+        <div class="col-md-10 col-xs-12 col-sm-9">
           <p class="small-text condensed-text text-justify">
             A Tese Gestão de Investimentos Ltda. não comercializa nem distribui cotas de fundos de investimento ou qualquer outro ativo financeiro. As informações contidas nesse material são de caráter exclusivamente informativo e não devem ser consideradas uma recomendação
             ou oferta para aquisição de cotas de fundos de investimento. Fundos de investimento não contam com a garantia do administrador, do gestor da carteira, de qualquer mecanismo de seguro ou, ainda, do fundo garantidor de créditos (FGC). A rentabilidade
@@ -231,14 +233,24 @@
             dos fundos. A rentabilidade divulgada não é líquida de impostos. Não há garantia de que este fundo terá o tratamento tributário de longo prazo.
           </p>
         </div>
-        <div class="col-md-2 col-xs-3" id="anbima">
-          <a href="http://www.anbima.com.br/" target="_blank"><img src="img/anbima.png" alt="Anbima"></img></a><br>
-          <a href="http://www.comoinvestir.com.br/" target="_blank"><img src="img/investir.png" alt="Como Investir"></img></a>
+        <div class="col-md-2 col-xs-12 col-sm-3" id="anbima">
+          <div class="row">
+            <div class="col-xs-6 col-sm-12">
+              <a href="http://www.anbima.com.br/" target="_blank">
+                <img src="img/anbima.png" alt="Anbima"></img>
+              </a>
+            </div>
+            <div class="col-xs-6 col-sm-12">
+              <a href="http://www.comoinvestir.com.br/" target="_blank">
+                <img src="img/investir.png" alt="Como Investir"></img>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
       <hr>
       <p class="text-center">
-        &copy; Copyright Tese Investimentos 2014 |
+        &copy; Copyright Tese Investimentos 2016 |
         <a href="mailto:contato@teseinvest.com.br" target="_blank">contato@teseinvest.com.br</a> |
         <a href="tel:+552121232350">+55 21 2123-2350</a>
       </p>

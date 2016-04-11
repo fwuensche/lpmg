@@ -5,13 +5,16 @@
   border-width: thin;
   border-color: #eee;
 }
+
 .small-text { font-size: 11px; }
 .condensed-text { line-height: 13px; }
 .pdf-icon { height: 14px; }
+
 #tab-fundo, #tab-contato, #tab-equipe {
   min-height: 460px;
   margin-top: 40px;
 }
+
 h4 {
   margin-bottom: 0 !important;
 }
@@ -29,12 +32,12 @@ p {
 
 #logo {
   height: 60px;
-  top: 35px;
+  top: 40px;
   position: absolute;
 }
 
 ul.nav {
-  margin-top: 90px;
+  margin-top: 110px;
 }
 
 #menu {
@@ -56,13 +59,9 @@ ul.nav {
 }
 
 #anbima img {
-  width: 127px;
-  height: 47px;
   max-width: 100%;
   max-height: 100%;
-  border-style: solid;
-  border-width: thin;
-  border-color: #eee;
+  border: thin solid #eee;
   margin-bottom: 5px;
   float: right;
 }
