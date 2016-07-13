@@ -11,8 +11,8 @@
   margin-bottom: 0 !important;
 }
 
-p {
-	color:#616161;
+body, p, ul, li, list-group-item {
+	color: rgb(27,63,107) !important;
 }
 
 #container {
